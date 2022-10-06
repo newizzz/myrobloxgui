@@ -1,0 +1,180 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Midnight", "Midnight")
+local Tab = Window:NewTab("Greenville")
+-----GREENVILLE--------
+local Section = Tab:NewSection("Teleports")
+Section:NewButton("Roadmap", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-1579, -78, -11397) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Apartaments", "deez nuts", function()
+    local CFrameEnd = CFrame.new(2365, -62, -4101) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Burgerhaus", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-170, -77, -10594) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Car Wash", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-365, -77, -10460) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Burger Knight", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4228, -78, -10989) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Tires+", "deez nuts", function()
+    local CFrameEnd = CFrame.new(3983, -79, -11489) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("JustBuy", "deez nuts", function()
+    local CFrameEnd = CFrame.new(3961, -78, -12093) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Jimbos", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Ligthed Power", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Celestial", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+
+Section:NewButton("Zumoqa - Mexican Cousine", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Greenville Fan Store", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Greenville Fan Store", "deez nuts", function()
+    local CFrameEnd = CFrame.new(4096, -79, -11928) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Police Station", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-443, -109, -2461) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Medical Station", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-61, -111, -1476) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Superwich", "deez nuts", function()
+    local CFrameEnd = CFrame.new(80, -111, -1636) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Twist", "deez nuts", function()
+    local CFrameEnd = CFrame.new(59, -108, -1983) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+------------------------------------------------------------
+local Section = Tab:NewSection("Police Station Teleports")
+Section:NewButton("Cameras", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-556, -109, -2570) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Main Hall", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-510, -109, -2512) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Dress Room", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-568, -109, -2470) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Brief Room", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-565, -108, -2536) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+Section:NewButton("Interogattion Room", "deez nuts", function()
+    local CFrameEnd = CFrame.new(-497, -109, -2560) -- Place your coords in here
+    local Time = 5 -- Time in seconds
+    local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+    tween:Play()
+    tween.Completed:Wait()
+end)
+
+
+
+
+local Tab = Window:NewTab("Other stuff")
+-----GREENVILLE--------
+local Section = Tab:NewSection("Ello")
+Section:NewButton("Inf Yield", "deez nuts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end)
+game.StarterGui:SetCore( 
+    "ChatMakeSystemMessage",  { 
+        Text = "script made by 104 dB#8629", 
+        Color = Color3.fromRGB( 255,255,255 ), 
+        Font = Enum.Font.Bangers, 
+        FontSize = Enum.FontSize.Size24
+    } 
+)
